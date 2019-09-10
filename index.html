@@ -5,10 +5,13 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Styletour</title>
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap&subset=cyrillic" rel="stylesheet">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:700,400&subset=latin,cyrillic' rel='stylesheet' type='text/css'> -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<script type="text/javascript" src="js/modernizr.custom.17475.js"></script>
+	<link href="css/elastislide.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -38,7 +41,7 @@
 							</li>
 							<li class="nav-item dropdown">
 								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-									<span class="flag"><img src="img/flag.jpg" alt=""> </span>
+									<span class="flag"><img src="images/flag.jpg" alt=""> </span>
 									English
 								</a>
 								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -89,7 +92,7 @@
 							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 								<span class="navbar-toggler-icon"></span>
 							</button>
-							<a class="navbar-brand" href="#"><img src="img/logo.png" alt="StyleTour"> <span>Styletour</span></a>
+							<a class="navbar-brand" href="#"><img src="images/logo.png" alt="StyleTour"> <span>Styletour</span></a>
 
 							<div class="collapse navbar-collapse" id="navbarSupportedContent">
 								<ul class="navbar-nav mr-auto">
@@ -144,7 +147,7 @@
 
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-						<img src="img/slider.jpg" class="d-block w-100" alt="...">
+						<img src="images/slider.jpg" class="d-block w-100" alt="...">
 						<div class="container">
 							<div class="carousel-caption d-none d-md-block">
 								<h1>Women's Apparel</h1>
@@ -154,7 +157,7 @@
 						</div>
 					</div>
 					<div class="carousel-item ">
-						<img src="img/slider.jpg" class="d-block w-100" alt="...">
+						<img src="images/slider.jpg" class="d-block w-100" alt="...">
 						<div class="container">
 							<div class="carousel-caption d-none d-md-block">
 								<h1>Women's Apparel 2</h1>
@@ -164,7 +167,7 @@
 						</div>			
 					</div>
 					<div class="carousel-item ">
-						<img src="img/slider.jpg" class="d-block w-100" alt="...">
+						<img src="images/slider.jpg" class="d-block w-100" alt="...">
 						<div class="container">
 							<div class="carousel-caption d-none d-md-block">
 								<h1>Women's Apparel 3</h1>
@@ -196,108 +199,109 @@
 		<section class="main-content">
 			<div class="container">
 				<div class="row">
-	<div class="col-md-9 col-md-push-3">
-		<div class="content">
-			<h3>Item on Demand</h3>
-			<div class="products-row clearfix">
-				<div class="col-sm-4">
-					<div class="products">
-						<div class="product-favorits">
-							<span class="glyphicon glyphicon-heart"></span>
-						</div><!-- ./product-favorits -->
-						<div class="product-img">
-							<a href="#"><img src="img/goods1.jpg" alt="Cream jane jeans dress"> </a>
-						</div>
-						<p class="product-title">
-							<a href="#">Cream jane jeans dress</a>
-						</p>
-						<p class="product-desc">
-							Signature NYX cosmetics
-						</p>
-						<div class="product-buy">
-							<p class="product-price">
-								Price: €10.00 <!-- &#8364; -->
-							</p>
-							<a href="#" class="btn btn-default">Add to cart</a>
-						</div>
-					</div> <!-- ./products -->
-				</div>
-				<div class="col-sm-4">
-					<div class="products">
-						<div class="product-sale rounded-circle">
-							<span>Sale</span>
-						</div><!-- ./product-favorits -->
-						<div class="product-img">
-							<a href="#"><img src="img/goods2.jpg" alt="Cream jane jeans dress"> </a>
-						</div>
-						<p class="product-title">
-							<a href="#">Cream sissi tunic</a>
-						</p>
-						<p class="product-desc">
-							Lightweight with just a hint of sheer collor, this
-						</p>
-						<div class="product-buy">
-							<p class="product-price">
-								Price: €20.00 <!-- &#8364; -->
-							</p>
-							<a href="#" class="btn btn-default">Add to cart</a>
-						</div>
-					</div> <!-- ./products -->
-				</div>
-				<div class="col-sm-4">
-					<div class="products">
-						<div class="product-favorits">
-							<!-- <span class="glyphicon glyphicon-heart"></span> -->
-						</div><!-- ./product-favorits -->
-						<div class="product-img">
-							<a href="#"><img src="img/goods3.jpg" alt="Cream jane jeans dress"> </a>
-						</div>
-						<p class="product-title">
-							<a href="#">Big doodle shawl - blue/black</a>
-						</p>
-						<p class="product-desc">
-							Lightweight with just a hint of sheer color, this
-						</p>
-						<div class="product-buy">
-							<p class="product-price">
-								Price: €09.00 <!-- &#8364; -->
-							</p>
-							<a href="#" class="btn btn-default">Add to cart</a>
-						</div>
-					</div> <!-- ./products -->
-				</div>
-			</div> <!--  ./products-row -->
-			<h3>Featured Items</h3>
-			<div class="products-row clearfix">
-				<div class="col-sm-4">
-					<div class="products">
-						<div class="product-sale rounded-circle">
-							<span>Sale</span>
-						</div>
-						<div class="product-img">
-							<a href="#"><img src="img/goods4.jpg" alt="Cream jane jeans dress"> </a>
-						</div>
-						<p class="product-title">
-							<a href="#">Cream sissi tunic</a>
-						</p>
-						<p class="product-desc">
-							Lightweight with just a hint of sheer color,this
-						</p>
-						<div class="product-buy">
-							<p class="product-price">
-								Price: €20.00 <!-- &#8364; -->
-							</p>
-							<a href="#" class="btn btn-default">Add to cart</a>
-						</div>
-					</div> <!-- ./products -->
-				</div>
-				<div class="col-sm-4">
-					<div class="products">
+					<div class="col-md-9 col-md-push-3">
+						<div class="row">
+						<div class="content">
+							<h3>Item on Demand</h3>
+							<div class="products-row clearfix">
+								<div class="col-sm-4">
+									<div class="products">
+										<div class="product-favorits">
+											<span class="glyphicon glyphicon-heart"></span>
+										</div><!-- ./product-favorits -->
+										<div class="product-img">
+											<a href="#"><img src="images/goods1.jpg" alt="Cream jane jeans dress"> </a>
+										</div>
+										<p class="product-title">
+											<a href="#">Cream jane jeans dress</a>
+										</p>
+										<p class="product-desc">
+											Signature NYX cosmetics
+										</p>
+										<div class="product-buy">
+											<p class="product-price">
+												Price: €10.00 <!-- &#8364; -->
+											</p>
+											<a href="#" class="btn btn-default">Add to cart</a>
+										</div>
+									</div> <!-- ./products -->
+								</div>
+								<div class="col-sm-4">
+									<div class="products">
+										<div class="product-sale rounded-circle">
+											<span>Sale</span>
+										</div><!-- ./product-favorits -->
+										<div class="product-img">
+											<a href="#"><img src="images/goods2.jpg" alt="Cream jane jeans dress"> </a>
+										</div>
+										<p class="product-title">
+											<a href="#">Cream sissi tunic</a>
+										</p>
+										<p class="product-desc">
+											Lightweight with just a hint of sheer collor, this
+										</p>
+										<div class="product-buy">
+											<p class="product-price">
+												Price: €20.00 <!-- &#8364; -->
+											</p>
+											<a href="#" class="btn btn-default">Add to cart</a>
+										</div>
+									</div> <!-- ./products -->
+								</div>
+								<div class="col-sm-4">
+									<div class="products">
+										<div class="product-favorits">
+											<!-- <span class="glyphicon glyphicon-heart"></span> -->
+										</div><!-- ./product-favorits -->
+										<div class="product-img">
+											<a href="#"><img src="images/goods3.jpg" alt="Cream jane jeans dress"> </a>
+										</div>
+										<p class="product-title">
+											<a href="#">Big doodle shawl - blue/black</a>
+										</p>
+										<p class="product-desc">
+											Lightweight with just a hint of sheer color, this
+										</p>
+										<div class="product-buy">
+											<p class="product-price">
+												Price: €09.00 <!-- &#8364; -->
+											</p>
+											<a href="#" class="btn btn-default">Add to cart</a>
+										</div>
+									</div> <!-- ./products -->
+								</div>
+							</div> <!--  ./products-row -->
+							<h3>Featured Items</h3>
+							<div class="products-row clearfix">
+								<div class="col-sm-4">
+									<div class="products">
+										<div class="product-sale rounded-circle">
+											<span>Sale</span>
+										</div>
+										<div class="product-img">
+											<a href="#"><img src="images/goods4.jpg" alt="Cream jane jeans dress"> </a>
+										</div>
+										<p class="product-title">
+											<a href="#">Cream sissi tunic</a>
+										</p>
+										<p class="product-desc">
+											Lightweight with just a hint of sheer color,this
+										</p>
+										<div class="product-buy">
+											<p class="product-price">
+												Price: €20.00 <!-- &#8364; -->
+											</p>
+											<a href="#" class="btn btn-default">Add to cart</a>
+										</div>
+									</div> <!-- ./products -->
+								</div>
+								<div class="col-sm-4">
+									<div class="products">
 						<!-- <div class="product-sale rounded-circle">
 							<span>Sale</span>
 						</div> -->
 						<div class="product-img">
-							<a href="#"><img src="img/goods5.jpg" alt="Cream jane jeans dress"> </a>
+							<a href="#"><img src="images/goods5.jpg" alt="Cream jane jeans dress"> </a>
 						</div>
 						<p class="product-title">
 							<a href="#">Big doodle shawl - blue/black</a>
@@ -319,7 +323,7 @@
 							<!-- <span class="glyphicon glyphicon-heart"></span> -->
 						</div><!-- ./product-favorits -->
 						<div class="product-img">
-							<a href="#"><img src="img/goods6.jpg" alt="Cream jane jeans dress"> </a>
+							<a href="#"><img src="images/goods6.jpg" alt="Cream jane jeans dress"> </a>
 						</div>
 						<p class="product-title">
 							<a href="#">Big doodle shawl - blue/black</a>
@@ -337,17 +341,11 @@
 				</div>
 			</div> <!--  ./products-row -->
 
-<div class="banner-row clearfix">
-	<div class="col-sm-4"><a href="#"><img src="img/content-banner1.jpg"></a></div>
-	<div class="col-sm-4"><a href="#"><img src="img/content-banner2.jpg"></a></div>
-	<div class="col-sm-4"><a href="#"><img src="img/content-banner3.jpg"></a></div>
-</div><!--  ./banner-row -->
-
-
-
-
-
-
+			<div class="banner-row clearfix">
+				<div class="col-sm-4"><a href="#"><img src="images/content-banner1.jpg"></a></div>
+				<div class="col-sm-4"><a href="#"><img src="images/content-banner2.jpg"></a></div>
+				<div class="col-sm-4"><a href="#"><img src="images/content-banner3.jpg"></a></div>
+			</div><!--  ./banner-row -->
 
 			<h3>Latest Arrivals</h3>
 			<div class="products-row clearfix">
@@ -357,7 +355,7 @@
 							<!-- <span class="glyphicon glyphicon-heart"></span> -->
 						</div><!-- ./product-favorits -->
 						<div class="product-img">
-							<a href="#"><img src="img/goods7.jpg" alt="Cream jane jeans dress"> </a>
+							<a href="#"><img src="images/goods7.jpg" alt="Cream jane jeans dress"> </a>
 						</div>
 						<p class="product-title">
 							<a href="#">Cream sissi tunic</a>
@@ -379,7 +377,7 @@
 							<span>Sale</span>
 						</div> --><!-- ./product-favorits -->
 						<div class="product-img">
-							<a href="#"><img src="img/goods8.jpg" alt="Cream jane jeans dress"> </a>
+							<a href="#"><img src="images/goods8.jpg" alt="Cream jane jeans dress"> </a>
 						</div>
 						<p class="product-title">
 							<a href="#">Cream sissi tunic</a>
@@ -401,7 +399,7 @@
 							<!-- <span class="glyphicon glyphicon-heart"></span> -->
 						</div><!-- ./product-favorits -->
 						<div class="product-img">
-							<a href="#"><img src="img/goods9.jpg" alt="Cream jane jeans dress"> </a>
+							<a href="#"><img src="images/goods9.jpg" alt="Cream jane jeans dress"> </a>
 						</div>
 						<p class="product-title">
 							<a href="#">Big doodle shawl - blue/black</a>
@@ -421,111 +419,246 @@
 
 		</div> <!-- ./content -->
 	</div>
-					<div class="col-md-3 col-md-pull-9">
-						<div class="sidebar">
-							<div class="row">
-								<div class="col-xs-6 col-md-12">
-									<div class="widget">
-										<h3>Popular Categories</h3>
-										<ul>
-											<li><a href="#">Performance Collection</a></li>
-											<li><a href="#">Pants</a></li>
-											<li><a href="#">Women Shirt</a></li>
-											<li><a href="#">Eart-Friendly Apparel</a></li>
-											<li><a href="#">Sweatshirts</a></li>
-											<li><a href="#">Infants</a></li>
-											<li><a href="#">Shorts</a></li>
-											<li><a href="#">Adult Essentials</a></li>
-											<li class="more"><a href="#">Show More</a></li>
-										</ul>
-									</div>
-								</div>
-								<div class="col-xs-6 col-md-12">
-									<div class="widget">
-										<h3>Popular Brands</h3>
-										<ul>
-											<li><a href="#">Ashworth</a></li>
-											<li><a href="#">Rabbit Skins</a></li>
-											<li><a href="#">Izod</a></li>
-											<li><a href="#">LAT</a></li>
-											<li><a href="#">Authentic Pigment</a></li>
-											<li><a href="#">Canvas</a></li>
-											<li><a href="#">Apples & Oranges</a></li>
-											<li><a href="#">OccuNomix</a></li>
-											<li class="more"><a href="#">Show More</a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-12 col-xs-6 text-center">
-										<div id="carousel-sidebar" class="carousel slide" data-ride="carousel">
-											<div class="carousel-inner">
-												<div class="carousel-item active">
-													<img src="img/slide-sidebar1.jpg" class="d-block w-100" alt="...">
-													<div class="sidebar-carousel-caption d-none d-md-block">
-														<div> 
-															<h4>Fashion Colors For Women</h4>
-															<p>Make every category of your webstore look special by setting different color schemes.</p>
-														</div>
-													</div>
-												</div>
-												<div class="carousel-item ">
-													<img src="img/slide-sidebar2.jpg" class="d-block w-100" alt="...">
-													<div class="sidebar-carousel-caption d-none d-md-block">
-														<div>
-															<h4>Fashion Colors For Women 2</h4>
-															<p>Make every category of your webstore look special by setting different color schemes.</p>
-														</div>
-													</div>
-												</div>
-												<div class="carousel-item ">
-													<img src="img/slide-sidebar1.jpg" class="d-block w-100" alt="...">
-													<div class="sidebar-carousel-caption d-none d-md-block">
-														<div>
-															<h4>Fashion Colors For Women 3</h4>
-															<p>Make every category of your webstore look special by setting different color schemes.</p>
-														</div>
-													</div>
-												</div>
-											</div>
-
-											<ol class="carousel-indicators">
-												<li data-target="#carousel-sidebar" data-slide-to="0" class="active"></li>
-												<li data-target="#carousel-sidebar" data-slide-to="1"></li>
-												<li data-target="#carousel-sidebar" data-slide-to="2"></li>
-											</ol>
-
-										</div> <!-- #carousel-sidebar -->
-								</div>
-								<div class="col-md-12 col-xs-6 text-center">
-									<div class="banner">
-										<img src="img/banner.jpg">
-										<h3>Introducing</h3>
-										<h2>Bombshell</h2>
-										<h3>Forever</h3>
-										<a href="#" class="btn-red">Shop now</a>
-									</div>
-								</div>
-							</div>
-
-							<div class="about">
-								<h3>About Store</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-							<p><span>Ut enim ad minim veniam, quis nostrud exercitation. Aiusmod tempor incididunt ut labore et dolore magna aliqua</span></p>
-							</div>
-						</div> <!-- ./sidebar -->
+	</div>
+	<div class="col-md-3 col-md-pull-9">
+		<div class="sidebar">
+			<div class="row">
+				<div class="col-xs-6 col-md-12">
+					<div class="widget">
+						<h3>Popular Categories</h3>
+						<ul>
+							<li><a href="#">Performance Collection</a></li>
+							<li><a href="#">Pants</a></li>
+							<li><a href="#">Women Shirt</a></li>
+							<li><a href="#">Eart-Friendly Apparel</a></li>
+							<li><a href="#">Sweatshirts</a></li>
+							<li><a href="#">Infants</a></li>
+							<li><a href="#">Shorts</a></li>
+							<li><a href="#">Adult Essentials</a></li>
+							<li class="more"><a href="#">Show More</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-xs-6 col-md-12">
+					<div class="widget">
+						<h3>Popular Brands</h3>
+						<ul>
+							<li><a href="#">Ashworth</a></li>
+							<li><a href="#">Rabbit Skins</a></li>
+							<li><a href="#">Izod</a></li>
+							<li><a href="#">LAT</a></li>
+							<li><a href="#">Authentic Pigment</a></li>
+							<li><a href="#">Canvas</a></li>
+							<li><a href="#">Apples & Oranges</a></li>
+							<li><a href="#">OccuNomix</a></li>
+							<li class="more"><a href="#">Show More</a></li>
+						</ul>
 					</div>
 				</div>
 			</div>
-		</section>
+			<div class="row">
+				<div class="col-md-12 col-xs-6 text-center">
+					<div id="carousel-sidebar" class="carousel slide" data-ride="carousel">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img src="images/slide-sidebar1.jpg" class="d-block w-100" alt="...">
+								<div class="sidebar-carousel-caption d-none d-md-block">
+									<div> 
+										<h4>Fashion Colors For Women</h4>
+										<p>Make every category of your webstore look special by setting different color schemes.</p>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item ">
+								<img src="images/slide-sidebar2.jpg" class="d-block w-100" alt="...">
+								<div class="sidebar-carousel-caption d-none d-md-block">
+									<div>
+										<h4>Fashion Colors For Women 2</h4>
+										<p>Make every category of your webstore look special by setting different color schemes.</p>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item ">
+								<img src="images/slide-sidebar1.jpg" class="d-block w-100" alt="...">
+								<div class="sidebar-carousel-caption d-none d-md-block">
+									<div>
+										<h4>Fashion Colors For Women 3</h4>
+										<p>Make every category of your webstore look special by setting different color schemes.</p>
+									</div>
+								</div>
+							</div>
+						</div>
 
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-		<script type="text/javascript" src="js/script.js"></script>
+						<ol class="carousel-indicators">
+							<li data-target="#carousel-sidebar" data-slide-to="0" class="active"></li>
+							<li data-target="#carousel-sidebar" data-slide-to="1"></li>
+							<li data-target="#carousel-sidebar" data-slide-to="2"></li>
+						</ol>
 
-		<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
-		<!-- <script src="js/bootstrap.min.js"></script> -->
-	</body>
-	</html>
+					</div> <!-- #carousel-sidebar -->
+				</div>
+				<div class="col-md-12 col-xs-6 text-center">
+					<div class="banner">
+						<img src="images/banner.jpg">
+						<h3>Introducing</h3>
+						<h2>Bombshell</h2>
+						<h3>Forever</h3>
+						<a href="#" class="btn-red">Shop now</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="about">
+				<h3>About Store</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+				<p><span>Ut enim ad minim veniam, quis nostrud exercitation. Aiusmod tempor incididunt ut labore et dolore magna aliqua</span></p>
+			</div>
+		</div> <!-- ./sidebar -->
+	</div>
+</div>
+</div>
+</section>
+
+<section class="bottom-content">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<h3>Get Discounts and Free Offers</h3>
+				<h4>Get free coupens, discount and new arivals</h4>
+			</div>
+			<div class="col-md-8">
+				<form class="form-inline">
+					<div class="row">
+						<div class="form-group col-md-4">
+							<input type="text" class="form-control" placeholder="your full name" name="name">
+						</div>
+						<div class="form-group col-md-4">
+							<input type="email" class="form-control" placeholder="your email address" name="email">
+						</div>
+						<div class="form-group col-md-4">
+							<button type="submit" class="btn btn-default">Subscribe</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</section>
+
+<div class="bottom-slider">
+	<div class="container">
+		<ul id="elastislide" class="elastislide-list">
+			<li><a href="#"><img src="images/partner1.jpg"></a></li>
+			<li><a href="#"><img src="images/partner4.jpg"></a></li>
+			<li><a href="#"><img src="images/partner5.jpg"></a></li>
+			<li><a href="#"><img src="images/partner6.jpg"></a></li>
+			<li><a href="#"><img src="images/partner1.jpg"></a></li>
+			<li><a href="#"><img src="images/partner4.jpg"></a></li>
+			<li><a href="#"><img src="images/partner5.jpg"></a></li>
+			<li><a href="#"><img src="images/partner6.jpg"></a></li>
+			<li><a href="#"><img src="images/partner4.jpg"></a></li>
+			<li><a href="#"><img src="images/partner5.jpg"></a></li>
+			<li><a href="#"><img src="images/partner6.jpg"></a></li>
+			<li><a href="#"><img src="images/partner4.jpg"></a></li>
+			<li><a href="#"><img src="images/partner5.jpg"></a></li>
+			<li><a href="#"><img src="images/partner6.jpg"></a></li>
+		</ul>
+	</div>
+</div>
+
+<footer>
+	<div class="footer-menu">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-10">
+					<div class="row">
+						<div class="col-md-3 col-xs-6">
+							<h5>Help &amp; Info </h5>
+							<ul>
+								<li><a href="#">Delivery</a></li>
+									<li><a href="#">Returns &amp; Refunds</a></li>
+									<li><a href="#">Contact Us</a></li>
+									<li><a href="#">Track your Order</a></li>
+									<li><a href="#">Reglaze Service</a></li>
+									<li><a href="#">Lens Price Comparison</a></li>
+									<li><a href="#">A - Z Brands</a></li>
+									<li><a href="#">FAQ's</a></li>
+							</ul>
+						</div>
+						<div class="col-md-3 col-xs-6">
+							<h5>Brands we sell</h5>
+							<ul>
+								<li><a href="#">Noosa Amsterdam</a></li>
+									<li><a href="#">Cream Clothing</a></li>
+									<li><a href="#">Taschendieb</a></li>
+									<li><a href="#">Hermes paris</a></li>
+									<li><a href="#">D&amp;G Fashion</a></li>
+							</ul>
+						</div>
+						<div class="clearfix visible-xs-block visible-sm-block"></div>
+						<div class="col-md-3 col-xs-6">
+							<h5>Care &amp; advice</h5>
+							<ul>
+								<li><a href="#">Prescription Information</a></li>
+									<li><a href="#">Lenses &amp; Coatings</a></li>
+									<li><a href="#">PD Measurement</a></li>
+									<li><a href="#">Style Advice</a></li>
+									<li><a href="#">Size Guide</a></li>
+									<li><a href="#">Shopping Guide</a></li>
+							</ul>
+						</div>
+						<div class="col-md-3 col-xs-6">
+							<h5>Company</h5>
+							<ul>
+								<li><a href="#">About Us</a></li>
+								<li><a href="#">Our Store</a></li>
+								<li><a href="#">Terms &amp; Conditions</a></li>
+								<li><a href="#">Privacy Policy</a></li>
+								<li><a href="#">Cookies</a></li>
+								<li><a href="#">Find us</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<h5>Follow us</h5>
+						<div class="social-icons">
+							<a href="#"><img src="images/fb.jpg" alt=""></a>
+							<a href="#"><img src="images/tw.jpg" alt=""></a>
+							<a href="#"><img src="images/fl.jpg" alt=""></a>
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer-copyright">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<p>&copy; 2014 Fashion Store. All Rights Reserved.</p>
+					</div>
+					<div class="col-md-8 text-right pay">
+						<a href="#"><img src="images/pay1.jpg" alt=""></a>
+						<a href="#"><img src="images/pay2.jpg" alt=""></a>
+						<a href="#"><img src="images/pay3.jpg" alt=""></a>
+						<a href="#"><img src="images/pay4.jpg" alt=""></a>
+						<a href="#"><img src="images/pay5.jpg" alt=""></a>
+						<a href="#"><img src="images/pay6.jpg" alt=""></a>
+						<a href="#"><img src="images/pay7.jpg" alt=""></a>
+						<a href="#"><img src="images/pay8.jpg" alt=""></a>
+					</div>
+				</div>
+			</div>
+		</div><!-- /.footer-copyright -->
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/jquery.elastislide.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
+<!-- <script src="js/bootstrap.min.js"></script> -->
+</body>
+</html>
